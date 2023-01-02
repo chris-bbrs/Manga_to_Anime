@@ -25,6 +25,9 @@ torch = "^1.13.1"
 torchvision = "^0.14.1"
 spatial = "^0.2.0"
 annoy = "^1.17.1"
+aiohttp = "^3.8.3"
+mangadex = "^2.5.2"
+pypng = "^0.20220715.0"
 
 
 [tool.poetry.group.dev.dependencies]
