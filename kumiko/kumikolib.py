@@ -271,8 +271,15 @@ class Kumiko:
 		self.dbg.add_step('Expand panels', panels)
 
 
-	def parse_image(self,filename,url=None):
-		self.img = cv.imread(filename)
+	def parse_image(self, filename, url=None, image=None):
+		if image is None:
+			self.img = cv.imread(filename)
+		else:
+			if len(image.shape) == 2:
+				self.img = cv.cvtColor(image, cv.COLOR_GRAY2BGR)
+			else:
+				self.img = image
+
 		if not isinstance(self.img,np.ndarray) or self.img.size == 0:
 			raise NotAnImageException('File {} is not an image'.format(filename))
 

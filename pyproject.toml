@@ -7,11 +7,10 @@ readme = "README.md"
 packages = [{include = "manga_to_anime"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 opencv-python = "^4.6.0.66"
 imageio = "^2.22.4"
 pymediainfo = "^6.0.1"
-katna = "^0.9.2"
 ffmpeg-python = "^0.2.0"
 ffmpeg = "^1.4"
 decord = "^0.6.0"
@@ -28,6 +27,11 @@ annoy = "^1.17.1"
 aiohttp = "^3.8.3"
 mangadex = "^2.5.2"
 pypng = "^0.20220715.0"
+natsort = "^8.2.0"
+tf2onnx = "^1.13.0"
+onnx2pytorch = "^0.4.1"
+tensorflow = "^2.11.0"
+scikit-learn = "^1.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
