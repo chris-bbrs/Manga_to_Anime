@@ -32,6 +32,10 @@ tf2onnx = "^1.13.0"
 onnx2pytorch = "^0.4.1"
 tensorflow = "^2.11.0"
 scikit-learn = "^1.2.0"
+timm = "^0.6.12"
+efficientnet-pytorch = "^0.7.1"
+transformers = "^4.25.1"
+accelerate = "^0.15.0"
 
 
 [tool.poetry.group.dev.dependencies]
