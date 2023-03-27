@@ -1,6 +1,6 @@
 ## Manga_to_Anime
 
-This is an ongoing project where we try to create a dataset for training a Nueral net to generate the anime frames which correspond to subsequent manga panels.
+This is an ongoing project where we try to create a dataset for training a Neural net to generate anime frames which correspond to subsequent manga panels.
 
 The following are the steps we went through:
 - Create the corresponding folder structure for a specified Anime using the folder_structure.ipynb, the anime used as an example in the code is the fullmetal alchemist.
